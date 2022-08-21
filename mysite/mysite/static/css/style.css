@@ -1,7 +1,142 @@
 body {
-    background-color: black;
+    background: url(bg.png);
 }
 h1 {
-    color: white;
     font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+}
+h2 {
+    font-size: 27px;
+    text-align: center;
+}
+h3 {
+    font-size: 24px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    justify-content: center;
+    text-align: center;
+    margin: 0px 20%;
+    min-width: 700px;
+    font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;
+}
+nav a{
+    text-decoration: none;
+    font-size: 18px;
+}
+nav .main-navigation{
+    background-color: #887845;
+
+    -ms-user-select: none; 
+    -moz-user-select: none; 
+    -webkit-user-select: none; 
+    user-select: none;
+}
+nav .main-navigation a{
+    color: white;
+}
+nav .main-navigation a:hover{
+    color: black;
+}
+nav .social-links{
+    background-color: #f0f3f6;
+
+    -ms-user-select: none; 
+    -moz-user-select: none; 
+    -webkit-user-select: none; 
+    user-select: none;
+}
+nav .social-links a{
+    color: black;
+}
+nav .social-links a:hover{
+    color:#887845;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+nav ul li{
+    display: block;
+}
+
+.site-branding {
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    text-align: center;
+    align-items: center;
+    width: 60%;
+    margin: 0px 20%;
+
+    -ms-user-select: none; 
+    -moz-user-select: none; 
+    -webkit-user-select: none; 
+    user-select: none;
+}
+
+.site-branding .mysearch form input{
+    border-radius: 20px;
+    padding: 10px;
+}
+.site-branding .mysearch form button{
+    transition: 0.3s;
+    background-color: #88784500;
+    border: none;
+    font-size: 17px;
+}
+.site-branding .mysearch form:hover button{
+    color: #887845;
+}
+.site-branding .mygr a{
+    display: flex;
+    align-items: center;  
+}
+.site-branding .mygr a{
+    text-decoration: none;
+    color: black;
+}
+
+.site {
+    margin: 0 auto;
+    max-width: 1180px;
+    min-height: 600px;
+    padding: 0;
+}
+.site .content {
+    color: black;
+}
+
+
+
+.table-index-page {
+    width: 100%;
+    border: 1px;
+    /* background-color: #887845; */
+    border-collapse: collapse;
+}
+.table-index-page tbody tr td{
+    background-color: #45886f04;
+    padding: 10px;
+    border: 1px solid;
+
+}
+
+
+
+
+
+.site-footer{
+    margin-top: 100px;
+    padding: 25px;
+}
+.site-footer div{
+    text-align: center;
 }

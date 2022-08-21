@@ -1,0 +1,24 @@
+{% load static %}
+<script src="https://kit.fontawesome.com/8c0563f357.js" crossorigin="anonymous"></script>
+<div class="site-branding">
+    <!-- <div class="content"> -->
+        <div class="mylog">
+            <a href="#" title="TopKamni">
+                <img class="lazy loaded" src="{% static '/images/logo.png' %}" width="160" height="67" alt="TopKamni" data-was-processed="true">
+            </a>
+            <p class="site-description">Всё о драгоценных и полудрагоценных камнях</p>
+        </div>
+        <div class="mysearch">
+            <form method="get" id="search">
+                <input type="search" placeholder="Искать по сайту..." value="">
+                
+                <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+        </div>
+        <div class="mygr">
+            <a href="/category/znak-zodiaka">
+            <img class="lazy loaded" src="{% static '/images/rak-logo-removebg-preview.png' %}">
+            Ваш камень <br>по знаку зодиака</a>
+        </div>
+    <!-- </div> -->
+</div>
